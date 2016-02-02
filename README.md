@@ -1,6 +1,8 @@
 # lazy
 
-A library adding lazy evaluation to Dart.
+A library adding lazy evaluation to Dart. This package is based on Günter Zöchbauer's answer on the StackOverflow question [How to do lazy evaluation in Dart?][question].
+
+[question]: http://stackoverflow.com/questions/33218987/how-to-do-lazy-evaluation-in-dart
 
 ## Usage
 
