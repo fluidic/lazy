@@ -7,15 +7,33 @@ import 'package:lazy/lazy.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('A group of tests', () {
-    Awesome awesome;
+  group('Lazy<T> tests', () {
+    int count;
 
     setUp(() {
-      awesome = new Awesome();
+      count = 0;
     });
 
-    test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
+    test('No evaluation is performed unless the value is retrieved', () {
+      final lv = new Lazy(() {
+        count++;
+        return 'foo';
+      });
+      expect(count, equals(0));
+      expect(lv(), equals('foo'));
+    });
+
+    test('Evaluation is performed only once', () {
+      final lv = new Lazy(() {
+        count++;
+        return 'foo';
+      });
+
+      expect(lv(), equals('foo'));
+      expect(count, equals(1));
+
+      expect(lv(), equals('foo'));
+      expect(count, equals(1));
     });
   });
 }
