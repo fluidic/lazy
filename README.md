@@ -1,6 +1,6 @@
 # lazy
 
-A library for Dart developers. It is awesome.
+A library adding lazy evaluation to Dart.
 
 ## Usage
 
@@ -16,4 +16,4 @@ A simple usage example:
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/ProtoCatTeam/lazy/issues
