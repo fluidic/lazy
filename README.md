@@ -33,4 +33,4 @@ main() {
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: https://github.com/ProtoCatTeam/lazy/issues
+[tracker]: https://github.com/fluidic/lazy/issues
