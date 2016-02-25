@@ -1,5 +1,3 @@
-library lazy.test;
-
 import 'package:lazy/lazy.dart';
 import 'package:test/test.dart';
 
