@@ -1,7 +1,7 @@
 name: lazy
 description: A library adding lazy evaluation to Dart.
 version: 0.1.0
-#author: Your Name <email@example.com>
+author: Fluidic Team <dev@fluidic.io>
 homepage: https://github.com/fluidic/lazy
 
 environment:
